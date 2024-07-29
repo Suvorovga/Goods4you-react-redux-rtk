@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  column-gap: 35px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 49px;
+}
+
+@media (max-width: 1340px) {
+  .list {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,116 @@
+.hero {
+  background-color: rgba(72, 66, 131, 1);
+  margin-top: -1px;
+}
+
+.container {
+  position: relative;
+  padding: 115px 0;
+  border-top: 1px solid white;
+}
+
+.description {
+  position: relative;
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  top: 122px;
+  width: 100%;
+  z-index: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.12);
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 300px;
+}
+
+.title {
+  max-width: 45%;
+  color: white;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.text {
+  max-width: 30%;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: block;
+  max-width: 207px;
+  max-height: 62px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 20px 50px;
+  background-color: rgba(241, 79, 79, 1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background-color: rgba(140, 40, 40, 1);
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 60px 0;
+  }
+
+  .background {
+    font-size: 15vw;
+    top: 0;
+    left: 0;
+  }
+
+  .title {
+    font-size: 3vw;
+    max-width: 70%;
+  }
+
+  .text {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .title {
+    font-size: 3vw;
+    max-width: 80%;
+  }
+
+  .text {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .title {
+    max-width: 100%;
+  }
+
+  .text {
+    font-size: 2vw;
+    max-width: 100%;
+  }
+
+  .btn {
+    margin: auto;
+  }
+}

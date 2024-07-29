@@ -1,0 +1,11 @@
+.main {
+  min-height: calc(100vh - 180px);
+}
+
+.error {
+  display: flex;
+  height: calc(100vh - 180px);
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}

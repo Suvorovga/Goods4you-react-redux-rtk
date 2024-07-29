@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 20px 40px;
+  width: 65.7%;
+  border: 1px solid rgba(196, 196, 196, 1);
+}
+
+@media (max-width: 1400px) {
+  .list {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
